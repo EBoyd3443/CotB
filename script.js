@@ -1,5 +1,6 @@
 "use strict";
 let activeSpecies = "Sapien";
+
 document.getElementById("topbar").addEventListener("click", function()
 {
     let starterText =document.querySelector("#starter-text");
@@ -15,14 +16,15 @@ document.getElementById("topbar").addEventListener("click", function()
 document.getElementById("sidebar").addEventListener("click",function(event)
 {
    let clicked = event.target.textContent;
+   let speciesImage = null;
    let starterText =document.querySelector("#starter-text");
-   let speciesImage = document.querySelector("#species-image");
    let speciesText = document.querySelector("#species-text");
    let speciesButtons = document.querySelector("#species-buttons");
    switch(clicked){
        case "Sapien":
            activeSpecies = clicked;
-           speciesImage.src = 'images/Sapien.png';
+           hideImages();
+           speciesImage = document.getElementById("sapien");
            starterText.style.display = "none";
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
@@ -33,7 +35,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            break;
        case "Rajahn":
            activeSpecies = clicked;
-           speciesImage.src = "images/Rajahn.png";
+           hideImages();
+           speciesImage = document.getElementById("rajahn");
            starterText.style.display = "none";
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
@@ -44,7 +47,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            break;
        case "Drak'an":
            activeSpecies = clicked;
-           speciesImage.src = "images/Drakan.png";
+           hideImages();
+           speciesImage = document.getElementById("drakan");
            starterText.style.display = "none";
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
@@ -55,7 +59,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            break;
        case "Drak'ul":
            activeSpecies = clicked;
-           speciesImage.src = "images/Drak'ul.png";
+           hideImages();
+           speciesImage = document.getElementById("drakul");
            starterText.style.display = "none";
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
@@ -66,7 +71,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            break;
        case "Oracca":
            activeSpecies = clicked;
-           speciesImage.src = 'images/Oracca.png';
+           hideImages();
+           speciesImage = document.getElementById("oracca");
            starterText.style.display = "none";
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
@@ -77,7 +83,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            break;
        case "Luminoth":
            activeSpecies = clicked;
-           speciesImage.src = 'images/mothfin.png';
+           hideImages();
+           speciesImage = document.getElementById("luminoth");
            starterText.style.display = "none";
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
@@ -88,7 +95,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            break;
        case "Sareesh":
            activeSpecies = clicked;
-           speciesImage.src = "images/Sareesh clear.png";
+           hideImages();
+           speciesImage = document.getElementById("sareesh");
            starterText.style.display = "none";
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
@@ -99,7 +107,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            break;
        case "Beastborn":
            activeSpecies = clicked;
-           speciesImage.src = "images/dogtrio.png";
+           hideImages();
+           speciesImage = document.getElementById("beastborn");
            starterText.style.display = "none";
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
@@ -112,6 +121,13 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            break;
    }
 });
+function hideImages()
+{
+    document.querySelectorAll(".hidden").forEach((element) =>
+    {
+        element.style.display="none";
+    });
+}
 document.getElementById("species-buttons").addEventListener("click",function(event)
 {
     let clicked = event.target.textContent;

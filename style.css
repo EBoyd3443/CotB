@@ -73,11 +73,14 @@ body
   height: 80%;
   left: 15%;
 }
-#species-image
+.species-image
 {
-  display: none;
   padding: 2%;
   width: 25%;
+}
+.hidden
+{
+  display: none;
 }
 #species-buttons
 {
