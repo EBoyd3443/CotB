@@ -46,7 +46,7 @@ body
 }
 #sidebar div
 {
-  width: 90%;
+  width: 85%;
   float: left;
   display: block;
   color: white;
@@ -75,21 +75,45 @@ body
 }
 #species-image
 {
+  display: none;
   padding: 2%;
-  display: inline-block;
   width: 25%;
 }
 #species-buttons
 {
+  display: none;
   position: absolute;
   top: 0;
-  left: 30%;
+  left: 28%;
   width: 60%;
   height: 20%;
 }
+#starter-text
+{
+  padding: .5%;
+  color: white;
+  width: 80%;
+}
+#starter-text h1
+{
+  padding: 1%;
+}
+#starter-text p, #starter-text p i
+{
+  font-size: 1.4vw;
+}
+#starter-text ul
+{
+  padding: 3%;
+}
+#starter-text ul li, #starter-text ul li b
+{
+  font-size: 1.3vw;
+}
 .species-button
 {
-  display: inline-block;
+  min-width: 20%;
+  display: inline-flex;
   background: #222;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -97,13 +121,20 @@ body
 }
 #species-text
 {
+  display: none;
   color: white;
   position: absolute;
   top: 20%;
   left: 30%;
   width: 50%;
-  height: 20%;
-
+  height: 80%;
+  overflow-y: scroll;
+  overflow-x: visible;
+}
+#species-text *
+{
+  font-size: 1.5vw;
+  padding: 1%;
 }
 .center
 {
@@ -123,7 +154,6 @@ body
 }
 .green
 {
-  width: 160px;
   color:#009900;
 }
 ::-webkit-scrollbar-track
