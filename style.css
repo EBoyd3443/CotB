@@ -7,7 +7,8 @@
 body
 {
   background-image: url("images/Dark Forest Background.png");
-  background-size: auto;
+  background-size: 100%;
+  background-position-y: 20%;
 }
 #topbar
 {
@@ -15,9 +16,9 @@ body
   top: 0;
   left: 0;
   width: 100%;
-  height: 20%;
+  height: 15%;
   position: fixed;
-  background-color: #222;
+  background-color: #111;
   overflow: auto;
 }
 #topbar div
@@ -26,22 +27,17 @@ body
   text-align: center;
   color: white;
 }
-#topbar div h2
-{
-  padding-top: 10px;
-  margin: 1%;
-}
 #topbar .top-center
 {
   float: none;
 }
 #sidebar
 {
-  height: 80%;
+  height: 85%;
   width: 15%;
   position: fixed;
   z-index: 1;
-  top: 20%;
+  top: 15%;
   left: 0;
   background: transparent;
   scroll-behavior: smooth;
@@ -72,10 +68,41 @@ body
 #main
 {
   position: fixed;
-  top: 20%;
+  top: 15%;
   width: 100%;
   height: 80%;
   left: 15%;
+}
+#species-image
+{
+  display: inline-block;
+  width: 30%;
+}
+#species-buttons
+{
+  position: absolute;
+  top: 0%;
+  left: 30%;
+  width: 60%;
+  height: 20%;
+}
+.species-button
+{
+  display: inline-block;
+  background: #222;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 1%;
+}
+.species-text
+{
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 50%;
+  height: 20%;
+
 }
 .center
 {
@@ -85,9 +112,13 @@ body
 {
   width: 100%;
 }
+.title
+{
+  padding: 2%;
+}
 .biggest-font
 {
-  font-size: 5vw;
+  font-size: 2.5vw;
 }
 .green
 {
