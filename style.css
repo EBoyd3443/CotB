@@ -75,13 +75,14 @@ body
 }
 #species-image
 {
+  padding: 2%;
   display: inline-block;
-  width: 30%;
+  width: 25%;
 }
 #species-buttons
 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 30%;
   width: 60%;
   height: 20%;
@@ -94,7 +95,7 @@ body
   border-bottom-left-radius: 5px;
   padding: 1%;
 }
-.species-text
+#species-text
 {
   color: white;
   position: absolute;

@@ -1,0 +1,50 @@
+{
+  "Sapien":
+  {
+    "Lore": "A species of ape humans descended from tree-dwellers that were kicked out by more brutish counterparts. With relatively basic anatomies, they have a reputation for surviving through ingenuity, teamwork, and a shrewd willingness to work under those with true power. \n\nSapiens’ success despite their physical lacking has led many to believe they are disgustingly blessed by fate. But their advantages are largely born from having been faithful servants to the God Beasts and other beings for countless years. Although many seek to break their shackles, just as many have learned how to exploit their master’s gifts.",
+    "Stats": "",
+    "Abilities": ""
+  },
+  "Rajahn":
+  {
+    "Lore": "A species of feline humans with a cursed history, eternally fleeing from a phenomenon known as the Fade. The Fade is rare, but contagious, making all those afflicted vanish over the course of months or days as if they never existed.\nRajahn are notoriously difficult to understand. Their mannerisms and customs seem unreasonable with their excessive hygiene and unexpected flashes of cruelty. But those who learn their ways are rewarded with lifelong companions.\n\nRajahn are known for their nomadic origins, cultures that avoided the use of God Beasts altogether. What seems like a random act of the Warrens was more understood and respected by these Rajahn, riding the chaos like waves at sea. Even modern Rajahn sometimes return to this way of life, as one must always be wary of the Fade. To grow one’s roots in a society is a luxury, one that must be tossed aside when portents bode ill.\n",
+    "Stats": "",
+    "Abilities": ""
+  },
+  "Drak'an":
+  {
+    "Lore": "A species of reptilian humans descended from clans of genetic experimenters that crippled their own bloodlines. Although their physical bodies are weak, their minds are sharp, and some remnants of the ancient experimentation remain.\nDrak’an like to chat, growing bored if their minds are not sufficiently stimulated. They try to think the topics they discuss are relentlessly deep, never acknowledging it is mostly jabber.\n\nModern Drak’an reward cleverness and elegance, prizing one’s mind over any physical form. Their homes are immaculate and accepting, embracing diverse travelers and the less fortunate with care. They are, however, fixated on systems and rules. A heaven for some, and hell for many. \nCities with their culture often dwell among the flows of waterfalls and riverbeds, utilizing their relationship with sentient water to power complex technology.\n",
+    "Stats": "",
+    "Abilities": ""
+  },
+  "Drak'ul":
+  {
+    "Lore": "A species of reptilian humans descended from the ancient lizard clans of Drak. Drak’ul societies are excessively strict and isolated, often dwelling in fortified mountain hollows and peaks. Many outcast Drak’ul flee their homes for more diverse Sanctuaries, leaving most human species unaware of the deeper truths of Drak’ul society. These outcast Drak’ul have a habit of spitting harsh words with few thoughts left unspoken, but there is rarely ill intent.  They love brevity and truth, something often lacking in those who too closely observe social mores.   \n\nDrak’ul societies focused on refining Drak’ul bodies and rejecting their mental aspirations. This was not out of ignorance, but out of fear. Every Drak’ul is plagued from birth with visions of a dreadful future. This foresight is ripped out through the Primordial Communion at a young age, and the experience leaves them never wishing for deeper knowledge again.\n",
+    "Stats": "",
+    "Abilities": ""
+  },
+  "Oracca":
+  {
+    "Lore": "A species of stone humans thought to be descended from gem-eating worms or the very rocks themselves. Oracca are creatures that reproduce through cloning, a process that leaves newborns many memories of their past lives. To be an Oracca is to search for an individual identity in a world where entire villages have memories of once being the same person.\nOracca are a paradox, taking pride in what uniqueness they carve out of their personalities, despite their genetics being fundamentally the same. When judging a species, it can be useful to depict the most common traits and generalize a people, but it is the Oracca that remind us how different the individual can be. \n",
+    "Stats": "",
+    "Abilities": ""
+  },
+  "Luminoth":
+  {
+    "Lore": "A species of moth people born from the dreams of an entity known as the Crawling Moon. With a nonexistent cultural history, the Luminoth are relentlessly curious about the world and themselves. Even they don’t understand the nature of their bodies and the dreamblood flowing through them. They are a cross between the real and unreal, resulting in a people that have difficulty separating truth from imagination.\n\nLuminoth reproduce with alarming speed, spreading and creating societies with ridiculous, experimental structures. These often fail within the harsh climate of the Warrens, leaving many Luminoth to die as new groups splinter and continue to experiment. This suggests potential for rapid evolution, but currently most successful Luminoth integrate with established human societies, adapting to human culture and practices while restraining their own radical instincts.\n",
+    "Stats": "",
+    "Abilities": ""
+  },
+  "Sareesh":
+  {
+    "Lore": "A species of fish people attuned to the liquid will of water and fluids, allowing limited shapeshifting. But despite their fluid nature, Sareesh rigidly define their place within society based on physical characteristics. \nYou play as exiled “human” Sareesh who seek their own traditions. But despite their exile, they often still hold radical viewpoints with black and white thinking. It is difficult to break generations of cultural indoctrination.\n\nThe Sareesh refused ensnarement by the Elder Deities, and thus rejected their place within humanity. But in their search for independence, they unwisely made a pact with an eldritch being, devouring its body so that it may live on forever within the blood of Sareesh. The very same personalities that instigated the Elder rebellion fell victim to their racial pride, dooming the Sareesh to joyfully worship the xenophobic whispers within their brains. \n",
+    "Stats": "",
+    "Abilities": ""
+  },
+  "Beastborn":
+  {
+    "Lore": "The Beastborn are not a singular species, but the result of numerous long-dead human civilizations being resurrected as beasts by a transformative curse. Rare few Beastborn reproduce normally, instead most newborn beasts are still created through the curse’s resurrection. \nThe Primal Curse that gave them their bestial appearance is still flowing strong, only controlled by masks made from the skulls of their relatives. Beastborn often struggle with the curse’s supernatural pull and with living in a modern world vastly foreign to their original cultures.\n\nBeastborn society is a melting pot of styles due to them originating from countless different civilizations, creating an endless feeling of culture shock. As natural ingroups form amongst the confused populace, infighting is not uncommon, leading many other human species to harbor a distaste for their kind. However, this distaste ends for the shamans and craftsmen of the Ivory Masks. Stories born of both respect and fear tell of the pain they must endure to uphold the masks’ power.\n",
+    "Stats": "",
+    "Abilities": ""
+  }
+}
