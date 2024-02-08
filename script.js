@@ -44,8 +44,7 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            break;
        case "Drak'an":
            activeSpecies = clicked;
-           //Drak'an Image Missing.
-           speciesImage.src = "images/Drak'ul.png";
+           speciesImage.src = "images/Drakan.png";
            starterText.style.display = "none";
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
