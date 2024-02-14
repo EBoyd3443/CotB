@@ -4,12 +4,11 @@ let activeSpecies = "Sapien";
 document.getElementById("topbar").addEventListener("click", function()
 {
     let starterText =document.querySelector("#starter-text");
-    let speciesImage = document.querySelector("#species-image");
     let speciesText = document.querySelector("#species-text");
     let speciesButtons = document.querySelector("#species-buttons");
 
+    hideImages();
     starterText.style.display = "inline";
-    speciesImage.style.display = "none";
     speciesText.style.display = "none";
     speciesButtons.style.display = "none";
 });
