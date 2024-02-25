@@ -1,0 +1,17 @@
+{
+  "Adventurous":
+  {
+    "Text": "<h1>ADVENTUROUS <i>+1 Dice in Athletics & Survival</i></h1> <p>Curiosity and ambition drive an adventurous hunter. They journey for purpose, challenge, and excitement.<p>"
+  },
+  "Grounded":
+  {
+    "Text": "<h1>GROUNDED <i>+1 Dice in Influence & Perception</i></h1> <p>A grounded hunter gets to the heart of things, simplifying the weird and complex into the oddly relatable.</p>"
+  },
+  "Weird":
+  {
+    "Text": "<h1>WEIRD <i>+1 Dice in Acrobatics & Crafting</i></h1> <p>Bizarre and unexpected, a weird hunter leads or seeks out an unusual existence. Nothing about them should be judged at face value.</p>"
+  },
+  "Dark": {
+    "Text": "<h1>DARK <i>+1 Dice in Knowledge & Stealth</i></h1> <p>Tragic, troubled, or simply evil, a dark hunter reacts to the denial of a typical life. Their stories often reflect how they deal with internal pain.</p>"
+  }
+}
