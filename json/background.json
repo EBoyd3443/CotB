@@ -1,0 +1,104 @@
+{
+  "Daredevil": {
+    "Description": "A LIFE OF PHYSICALITY AND THRILL",
+    "Willpower": 10,
+    "Blood": 30,
+    "Instinct": 11,
+    "Evasion": 14,
+    "Occult Power": 1,
+    "Skill": "Excellent Skills(+1 Dice) Acrobatics, Athletics, Offense, Defense"
+  },
+  "Dreamer": {
+    "Description": "A LIFE OF CREATION",
+    "Willpower": 20,
+    "Blood": 20,
+    "Instinct": 12,
+    "Evasion": 10,
+    "Occult Power": 2,
+    "Skill": "Excellent Skills(+1 Dice) Influence, Crafting, Stealth, Offense"
+  },
+  "Fighter": {
+    "Description": "A LIFE OF AVANT-GARDE AGGRESSION",
+    "Willpower": 15,
+    "Blood": 30,
+    "Instinct": 11,
+    "Evasion": 12,
+    "Occult Power": 1,
+    "Skill": "Excellent Skills(+1 Dice) Acrobatics, Athletics, Offense, Defense"
+  },
+  "Guardian": {
+    "Description": "A LIFE OF VIGILANCE AND CARE",
+    "Willpower": 20,
+    "Blood": 40,
+    "Instinct": 11,
+    "Evasion": 10,
+    "Occult Power": 1,
+    "Skill": "Excellent Skills(+1 Dice) Perception, Survival, Offense, Defense"
+  },
+  "Laborer": {
+    "Description": "A LIFE OF CEASELESS ENDURANCE",
+    "Willpower": 10,
+    "Blood": 40,
+    "Instinct": 13,
+    "Evasion": 10,
+    "Occult Power": 1,
+    "Skill": "Excellent Skills(+1 Dice) Athletics, Crafting, Knowledge, Offense"
+  },
+  "Renegade": {
+    "Description": "A LIFE OF SABOTAGE AND FREEDOM",
+    "Willpower": 20,
+    "Blood": 20,
+    "Instinct": 12,
+    "Evasion": 13,
+    "Occult Power": 1,
+    "Skill": "Excellent Skills(+1 Dice) Acrobatics, Influence, Stealth, Offense"
+  },
+  "Researcher": {
+    "Description": "A LIFE OF CURATING KNOWLEDGE",
+    "Willpower": 20,
+    "Blood": 20,
+    "Instinct": 11,
+    "Evasion": 11,
+    "Occult Power": 2,
+    "Skill": "Excellent Skills(+1 Dice) Crafting, Knowledge, Perception, Defense"
+  },
+  "Seeker": {
+    "Description": "A LIFE OF EXPERIENCING TRUTH",
+    "Willpower": 15,
+    "Blood": 20,
+    "Instinct": 13,
+    "Evasion": 10,
+    "Occult Power": 2,
+    "Skill": "Excellent Skills(+1 Dice) Perception, Survival, Stealth, Offense"
+  },
+  "Visionary": {
+    "Description": "A LIFE OF INSPIRING CHANGE",
+    "Willpower": 30,
+    "Blood": 20,
+    "Instinct": 10,
+    "Evasion": 12,
+    "Occult Power": 2,
+    "Skill": "Excellent Skills(+1 Dice) Influence, Knowledge, Survival, Offense"
+  },
+  "Wanderer": {
+    "Description": "A LIFE OF SECRETS AND SURVIVAL",
+    "Willpower": 15,
+    "Blood": 30,
+    "Instinct": 12,
+    "Evasion": 11,
+    "Occult Power": 1,
+    "Skill": "Excellent Skills(+1 Dice) Crafting, Knowledge, Perception, Survival"
+  },
+  "Unfortunate": {
+    "Description": "A STAGNANT LIFE",
+    "Willpower": 5,
+    "Blood": 10,
+    "Instinct": 10,
+    "Evasion": 10,
+    "Occult Power": 0,
+    "Skill": "Terrible Skills(+0 Dice) Everything"
+  }
+}
+
+
+

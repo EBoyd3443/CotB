@@ -1,17 +1,6 @@
 "use strict";
-let activeSpecies = "Sapien";
+let activeSpecies = "none";
 
-document.getElementById("topbar").addEventListener("click", function()
-{
-    let starterText =document.querySelector("#starter-text");
-    let speciesText = document.querySelector("#species-text");
-    let speciesButtons = document.querySelector("#species-buttons");
-
-    hideImages();
-    starterText.style.display = "inline";
-    speciesText.style.display = "none";
-    speciesButtons.style.display = "none";
-});
 document.getElementById("sidebar").addEventListener("click",function(event)
 {
    let clicked = event.target.textContent;
@@ -20,6 +9,14 @@ document.getElementById("sidebar").addEventListener("click",function(event)
    let speciesText = document.querySelector("#species-text");
    let speciesButtons = document.querySelector("#species-buttons");
    switch(clicked){
+       case activeSpecies:
+           hideImages();
+           starterText.style.display = "inline";
+           speciesText.style.display = "none";
+           speciesButtons.style.display = "none";
+           event.target.closest("div").style.backgroundColor = "";
+           activeSpecies = "none";
+           break;
        case "Sapien":
            activeSpecies = clicked;
            hideImages();
@@ -28,6 +25,12 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
+           {
+               console.log(element);
+               element.style.backgroundColor = "";
+           });
+           event.target.closest("div").style.backgroundColor = "#888";
            fetch("./json/species.json")
                .then(response => response.json())
                .then(data => {speciesText.innerHTML = data[`${clicked}`]["Lore"]});
@@ -40,6 +43,12 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
+           {
+               console.log(element);
+               element.style.backgroundColor = "";
+           });
+           event.target.closest("div").style.backgroundColor = "#888";
            fetch("./json/species.json")
                .then(response => response.json())
                .then(data => {speciesText.innerHTML = data[`${clicked}`]["Lore"]});
@@ -52,6 +61,12 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
+           {
+               console.log(element);
+               element.style.backgroundColor = "";
+           });
+           event.target.closest("div").style.backgroundColor = "#888";
            fetch("./json/species.json")
                .then(response => response.json())
                .then(data => {speciesText.innerHTML = data[`${clicked}`]["Lore"]});
@@ -64,6 +79,12 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
+           {
+               console.log(element);
+               element.style.backgroundColor = "";
+           });
+           event.target.closest("div").style.backgroundColor = "#888";
            fetch("./json/species.json")
                .then(response => response.json())
                .then(data => {speciesText.innerHTML = data[`${clicked}`]["Lore"]});
@@ -76,6 +97,12 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
+           {
+               console.log(element);
+               element.style.backgroundColor = "";
+           });
+           event.target.closest("div").style.backgroundColor = "#888";
            fetch("./json/species.json")
                .then(response => response.json())
                .then(data => {speciesText.innerHTML = data[`${clicked}`]["Lore"]});
@@ -88,6 +115,12 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
+           {
+               console.log(element);
+               element.style.backgroundColor = "";
+           });
+           event.target.closest("div").style.backgroundColor = "#888";
            fetch("./json/species.json")
                .then(response => response.json())
                .then(data => {speciesText.innerHTML = data[`${clicked}`]["Lore"]});
@@ -100,6 +133,12 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
+           {
+               console.log(element);
+               element.style.backgroundColor = "";
+           });
+           event.target.closest("div").style.backgroundColor = "#888";
            fetch("./json/species.json")
                .then(response => response.json())
                .then(data => {speciesText.innerHTML = data[`${clicked}`]["Lore"]});
@@ -112,6 +151,12 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
+           {
+               console.log(element);
+               element.style.backgroundColor = "";
+           });
+           event.target.closest("div").style.backgroundColor = "#888";
            fetch("./json/species.json")
                .then(response => response.json())
                .then(data => {speciesText.innerHTML = data[`${clicked}`]["Lore"]});
