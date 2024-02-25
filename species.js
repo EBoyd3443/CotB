@@ -1,5 +1,15 @@
 "use strict";
 let activeSpecies = "none";
+let nextButton = document.querySelector("#next-button");
+
+nextButton.addEventListener("click", function(event)
+{
+    if(activeSpecies !== "none")
+    {
+        localStorage.setItem("Species", activeSpecies);
+        window.location.href="dump.html";
+    }
+});
 
 document.getElementById("sidebar").addEventListener("click",function(event)
 {
@@ -15,6 +25,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesText.style.display = "none";
            speciesButtons.style.display = "none";
            event.target.closest("div").style.backgroundColor = "";
+           nextButton.style.backgroundImage = 'url("images/Next_button_blank - Copy.png")';
+           nextButton.style.color = "#678";
            activeSpecies = "none";
            break;
        case "Sapien":
@@ -25,6 +37,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           nextButton.style.backgroundImage = 'url("images/Next_button_blank.png")';
+           nextButton.style.color = "#000";
            document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
            {
                console.log(element);
@@ -43,6 +57,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           nextButton.style.backgroundImage = 'url("images/Next_button_blank.png")';
+           nextButton.style.color = "#000";
            document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
            {
                console.log(element);
@@ -61,6 +77,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           nextButton.style.backgroundImage = 'url("images/Next_button_blank.png")';
+           nextButton.style.color = "#000";
            document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
            {
                console.log(element);
@@ -79,6 +97,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           nextButton.style.backgroundImage = 'url("images/Next_button_blank.png")';
+           nextButton.style.color = "#000";
            document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
            {
                console.log(element);
@@ -97,6 +117,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           nextButton.style.backgroundImage = 'url("images/Next_button_blank.png")';
+           nextButton.style.color = "#000";
            document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
            {
                console.log(element);
@@ -115,6 +137,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           nextButton.style.backgroundImage = 'url("images/Next_button_blank.png")';
+           nextButton.style.color = "#000";
            document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
            {
                console.log(element);
@@ -133,6 +157,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           nextButton.style.backgroundImage = 'url("images/Next_button_blank.png")';
+           nextButton.style.color = "#000";
            document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
            {
                console.log(element);
@@ -151,6 +177,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            speciesImage.style.display = "inline-block";
            speciesText.style.display = "inline-block";
            speciesButtons.style.display = "inline";
+           nextButton.style.backgroundImage = 'url("images/Next_button_blank.png")';
+           nextButton.style.color = "#000";
            document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
            {
                console.log(element);

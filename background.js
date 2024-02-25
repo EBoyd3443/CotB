@@ -1,5 +1,15 @@
 "use strict";
 let activeBackground = "none";
+let nextButton = document.querySelector("#next-button");
+
+nextButton.addEventListener("click", function(event)
+{
+    if(activeBackground !== "none")
+    {
+        localStorage.setItem("Background", activeBackground);
+        window.location.href="species.html";
+    }
+});
 
 document.getElementById("sidebar").addEventListener("click",function(event)
 {
@@ -12,6 +22,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
             starterText.style.display = "inline";
             backgroundText.style.display = "none";
             event.target.closest("div").style.backgroundColor = "";
+            nextButton.style.backgroundImage = 'url("images/Next_button_blank - Copy.png")';
+            nextButton.style.color = "#678";
             activeBackground = "none";
             break;
         default:
@@ -28,6 +40,8 @@ document.getElementById("sidebar").addEventListener("click",function(event)
             activeBackground = clicked;
             starterText.style.display = "none";
             backgroundText.style.display = "inline-block";
+            nextButton.style.backgroundImage = 'url("images/Next_button_blank.png")';
+            nextButton.style.color = "#000";
             document.querySelector("#sidebar").querySelectorAll("div").forEach((element) =>
             {
                 element.style.backgroundColor = "";

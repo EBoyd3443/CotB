@@ -81,10 +81,11 @@ td
 }
 #next-button
 {
+  color: #678;
   bottom: 1.5%;
   right: 1%;
   width: 10%;
-  background-image: url("images/Next_button_blank.png");
+  background-image: url("images/Next_button_blank - Copy.png");
   padding: 1.5% 3%;
   background-size: 100% 100%;
   position: fixed;
