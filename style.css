@@ -3,6 +3,9 @@
   font-size: 2vw;
   padding: 0;
   margin: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #ddf #222;
+  scroll-behavior: smooth;
 }
 body
 {
@@ -51,7 +54,6 @@ td
   top: 15%;
   left: 0;
   background: transparent;
-  scroll-behavior: smooth;
   overflow-y: scroll;
   overflow-x: hidden;
 }
