@@ -6,9 +6,12 @@
 </head>
 <body>
     <script>
-        document.querySelector("body").innerHTML = "<p>" + localStorage.getItem("Theme") + "</p>" +
-            "<p>" + localStorage.getItem("Background") + "</p>" +
-            "<p>" + localStorage.getItem("Species") + "</p>"
+        document.querySelector("body").innerHTML =
+            "<p>Name: " + localStorage.getItem("Name") + "</p>" +
+            "<p>Alias: " + localStorage.getItem("Alias") + "</p>" +
+            "<p>Theme: " + localStorage.getItem("Theme") + "</p>" +
+            "<p>Background: " + localStorage.getItem("Background") + "</p>" +
+            "<p>Species: " + localStorage.getItem("Species") + "</p>"
 
     </script>
 </body>

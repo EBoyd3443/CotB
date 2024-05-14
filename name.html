@@ -17,9 +17,9 @@
     <div>
         <div class="name-box">
             <label class="label" for="name">Name</label><br>
-            <input id="name" type="text"><br>
+            <input id="name" type="text" onchange="updateName()" onemptied="updateName()"><br>
             <label class="label" for="alias">Alias</label><br>
-            <input id="alias" type="text">
+            <input id="alias" type="text" onchange="updateAlias()" maxlength="5">
         </div>
     </div>
     <div id="next-button" class="center">
