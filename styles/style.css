@@ -7,9 +7,19 @@
   scrollbar-color: #ddf #222;
   scroll-behavior: smooth;
 }
+.name-box
+{
+  margin:15% 37% 0;
+  text-align: left;
+  color: white;
+}
+.y-center
+{
+  padding-top: 15%;
+}
 body
 {
-  background-image: url("images/Dark Forest Background.png");
+  background-image: url("../images/Dark Forest Background.png");
   background-size: 100%;
   background-position-y: 20%;
 }
@@ -75,7 +85,7 @@ td
 {
   top: 1.5%;
   left: 1%;
-  background-image: url("images/backbutton.png");
+  background-image: url("../images/backbutton.png");
   padding: 1.5% 3%;
   background-size: 100% 100%;
   position: fixed;
@@ -87,7 +97,7 @@ td
   bottom: 1.5%;
   right: 1%;
   width: 10%;
-  background-image: url("images/Next_button_blank - Copy.png");
+  background-image: url("../images/Next_button_blank - Copy.png");
   padding: 1.5% 3%;
   background-size: 100% 100%;
   position: fixed;

@@ -1,14 +1,20 @@
 "use strict";
 let activeSpecies = "none";
 let nextButton = document.querySelector("#next-button");
+let backButton = document.querySelector("#back-button");
 
 nextButton.addEventListener("click", function(event)
 {
     if(activeSpecies !== "none")
     {
         localStorage.setItem("Species", activeSpecies);
-        window.location.href="dump.html";
+        window.location.href="name.html";
     }
+});
+
+backButton.addEventListener("click", function(event)
+{
+    window.location.href="background.html";
 });
 
 document.getElementById("sidebar").addEventListener("click",function(event)

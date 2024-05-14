@@ -1,6 +1,7 @@
 "use strict";
 let activeBackground = "none";
 let nextButton = document.querySelector("#next-button");
+let backButton = document.querySelector("#back-button");
 
 nextButton.addEventListener("click", function(event)
 {
@@ -9,6 +10,10 @@ nextButton.addEventListener("click", function(event)
         localStorage.setItem("Background", activeBackground);
         window.location.href="species.html";
     }
+});
+backButton.addEventListener("click", function(event)
+{
+    window.location.href="theme.html";
 });
 
 document.getElementById("sidebar").addEventListener("click",function(event)
@@ -62,33 +67,3 @@ document.getElementById("sidebar").addEventListener("click",function(event)
             break;
     }
 });
-/*document.getElementById("background-buttons").addEventListener("click",function(event)
-{
-    let clicked = event.target.textContent;
-
-    let backgroundText = document.querySelector("#background-text");
-    switch(clicked){
-        case "Lore":
-            fetch("./json/background.json")
-                .then(response => response.json())
-                .then(data => {backgroundText.innerHTML = data[`${activeBackground}`][`${clicked}`]});
-            break;
-        case "Abilities":
-            fetch("./json/background.json")
-                .then(response => response.json())
-                .then(data => {backgroundText.innerHTML = data[`${activeBackground}`][`${clicked}`]});
-            break;
-        case "Weapons":
-            fetch("./json/background.json")
-                .then(response => response.json())
-                .then(data => {backgroundText.innerHTML = data[`${activeBackground}`][`${clicked}`]});
-            break;
-        case "Revelation Seed":
-            fetch("./json/background.json")
-                .then(response => response.json())
-                .then(data => {backgroundText.innerHTML = data[`${activeBackground}`][`${clicked}`]});
-            break;
-        default:
-            break;
-    }
-});*/
