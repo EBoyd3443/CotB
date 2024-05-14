@@ -27,7 +27,7 @@ function updateName()
     console.log(aliasInput.value);
     if(aliasInput.value.length === 0 || !nameInput.value.startsWith((aliasInput.value)))
     {
-        aliasInput.value = nameInput.value.substring(0, 5);
+        aliasInput.value = nameInput.value.substring(0, 20);
     }
     validateConfirmButton();
 }
