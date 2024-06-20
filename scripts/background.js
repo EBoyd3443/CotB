@@ -6,7 +6,7 @@ let backButton = document.querySelector("#back-button");
 /**
  * Next button
  */
-nextButton.addEventListener("click", function(event)
+nextButton.addEventListener("click", function()
 {
     if(activeBackground !== "none")
     {
@@ -18,7 +18,7 @@ nextButton.addEventListener("click", function(event)
 /**
  * Back button
  */
-backButton.addEventListener("click", function(event)
+backButton.addEventListener("click", function()
 {
     window.location.href="theme.html";
 });
@@ -30,7 +30,6 @@ backButton.addEventListener("click", function(event)
 document.getElementById("sidebar").addEventListener("click",function(event)
 {
     let clicked = event.target.textContent;
-    let backgroundImage = null;
     let starterText =document.querySelector("#starter-text");
     let backgroundText = document.querySelector("#background-text");
     switch(clicked){
