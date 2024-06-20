@@ -3,6 +3,7 @@ let activeSpecies = "none";
 let nextButton = document.querySelector("#next-button");
 let backButton = document.querySelector("#back-button");
 
+//Navigate to next page if a species was chosen
 nextButton.addEventListener("click", function(event)
 {
     if(activeSpecies !== "none")
@@ -12,11 +13,16 @@ nextButton.addEventListener("click", function(event)
     }
 });
 
+//Back button
 backButton.addEventListener("click", function(event)
 {
     window.location.href="background.html";
 });
 
+/**
+ * Species button event function to fetch the appropriate information based on
+ * the button clicked.
+ */
 document.getElementById("sidebar").addEventListener("click",function(event)
 {
    let clicked = event.target.textContent;
@@ -199,6 +205,9 @@ document.getElementById("sidebar").addEventListener("click",function(event)
            break;
    }
 });
+
+// Helper function called in Species button event to hide each image before
+// retrieving a new one.
 function hideImages()
 {
     document.querySelectorAll(".hidden").forEach((element) =>
@@ -206,6 +215,11 @@ function hideImages()
         element.style.display="none";
     });
 }
+
+/**
+ * Button event function to fetch the appropriate information about a particular
+ * species.
+ */
 document.getElementById("species-buttons").addEventListener("click",function(event)
 {
     let clicked = event.target.textContent;
