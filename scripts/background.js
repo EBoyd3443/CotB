@@ -3,6 +3,9 @@ let activeBackground = "none";
 let nextButton = document.querySelector("#next-button");
 let backButton = document.querySelector("#back-button");
 
+/**
+ * Next button
+ */
 nextButton.addEventListener("click", function(event)
 {
     if(activeBackground !== "none")
@@ -11,11 +14,19 @@ nextButton.addEventListener("click", function(event)
         window.location.href="species.html";
     }
 });
+
+/**
+ * Back button
+ */
 backButton.addEventListener("click", function(event)
 {
     window.location.href="theme.html";
 });
 
+/**
+ * Event listener to handle selection and deselection of a Player's background.
+ * The function also requests information with fetch to display on the page.
+ */
 document.getElementById("sidebar").addEventListener("click",function(event)
 {
     let clicked = event.target.textContent;

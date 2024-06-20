@@ -5,7 +5,9 @@ let backButton = document.querySelector("#back-button");
 let nameInput = document.getElementById("name");
 let aliasInput = document.getElementById("alias");
 
-
+/**
+ * Next button
+ */
 nextButton.addEventListener("click", function()
 {
     if(validateFields())
@@ -16,11 +18,18 @@ nextButton.addEventListener("click", function()
     }
 });
 
+/**
+ * Back button
+ */
 backButton.addEventListener("click", function()
 {
     window.location.href="species.html";
 });
 
+/**
+ * Function called onUpdate() for the name input field. This function does the
+ * work to update the alias input field too.
+ */
 function updateName()
 {
     console.log(nameInput.value);
@@ -32,11 +41,18 @@ function updateName()
     validateConfirmButton();
 }
 
+/**
+ * Function called by the alias input field onUpdate() for more responsiveness.
+ */
 function updateAlias()
 {
     validateConfirmButton();
 }
 
+/**
+ * Function to activate the confirmation button if there is both an alias and
+ * a name entered. Or to deactivate the button when either field is empty.
+ */
 function validateConfirmButton()
 {
     if(aliasInput.value.length === 0  || nameInput.value.length === 0)
@@ -53,6 +69,10 @@ function validateConfirmButton()
     }
 }
 
+/**
+ * Function for future use to validate user input.
+ * @returns {boolean}
+ */
 function validateFields()
 {
     return true;

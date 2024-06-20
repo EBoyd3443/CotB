@@ -4,7 +4,7 @@ let nextButton = document.querySelector("#next-button");
 let backButton = document.querySelector("#back-button");
 
 //Navigate to next page if a species was chosen
-nextButton.addEventListener("click", function(event)
+nextButton.addEventListener("click", function()
 {
     if(activeSpecies !== "none")
     {
@@ -14,7 +14,7 @@ nextButton.addEventListener("click", function(event)
 });
 
 //Back button
-backButton.addEventListener("click", function(event)
+backButton.addEventListener("click", function()
 {
     window.location.href="background.html";
 });

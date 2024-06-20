@@ -1,7 +1,11 @@
 "use strict";
 let activeTheme = "none";
 let nextButton = document.querySelector("#next-button");
-nextButton.addEventListener("click", function(event)
+
+/**
+ * Next buttion
+ */
+nextButton.addEventListener("click", function()
 {
     if(activeTheme !== "none")
     {
@@ -10,6 +14,10 @@ nextButton.addEventListener("click", function(event)
     }
 });
 
+/**
+ * Event listener to manage theme selection and deselection. The function also
+ * pulls information from the appropriate JSON file through a fetch request.
+ */
 document.getElementById("sidebar").addEventListener("click",function(event)
 {
     let clicked = event.target.textContent;
